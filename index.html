@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>web responsif</title>
+    <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="hero">
+          <h1 class="heading">Naff merch shop</h1>
+          <p class="sub-heading">hoodie and t-shirt</p>
+        </div>
+        <div class="feature feature-1">
+          <h4 class="price">IDR 250K</h4>
+          <p class="item">hoodie</p>
+        </div>
+        <div class="feature feature-2">
+          <h4 class="price">IDR 100K</h4>
+          <p class="item">t-shirt</p>
+        </div>
+      </header>
+      <!-- navbar -->
+      <nav class="menu">
+        <div class="menu-toogle">
+          <input type="checkbox" />
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="brand">
+          <h1>NAFF MERCH</h1>
+        </div>
+        <ul class="menu-list">
+          <li><a href="#">home</a></li>
+          <li><a href="#">product</a></li>
+          <li><a href="#">about</a></li>
+          <li><a href="#">gallery</a></li>
+        </ul>
+      </nav>
+      <!-- services -->
+      <section class="services">
+        <div class="service">
+          <div class="icon">🖥️</div>
+          <h3>Tutorial</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet
+            temporibus modi, vitae recusandae harum sequi.
+          </p>
+        </div>
+        <div class="service">
+          <div class="icon">🖥️</div>
+          <h3>Tutorial</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet
+            temporibus modi, vitae recusandae harum sequi.
+          </p>
+        </div>
+        <div class="service">
+          <div class="icon">🖥️</div>
+          <h3>Tutorial</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet
+            temporibus modi, vitae recusandae harum sequi.
+          </p>
+        </div>
+        <div class="service">
+          <div class="icon">🖥️</div>
+          <h3>Tutorial</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet
+            temporibus modi, vitae recusandae harum sequi.
+          </p>
+        </div>
+      </section>
+      <section class="gallery">
+        <h2>Gallery</h2>
+        <img src="https://source.unsplash.com/random/201x201" alt="">
+        <img src="https://source.unsplash.com/random/202x202" alt="">
+        <img src="https://source.unsplash.com/random/203x203" alt="">
+        <img src="https://source.unsplash.com/random/204x204" alt="">
+        <img src="https://source.unsplash.com/random/205x205" alt="">
+        <img src="https://source.unsplash.com/random/206x206" alt="">
+        <img src="https://source.unsplash.com/random/207x207" alt="">
+        <img src="https://source.unsplash.com/random/208x208" alt="">
+        <img src="https://source.unsplash.com/random/209x209" alt="">
+        <img src="https://source.unsplash.com/random/2010x2010" alt="">
+      </section>
+    </div>
+    <!-- javascript -->
+    <script type="text/javascript" charset="utf-8">
+      const menuToggle = document.querySelector(".menu-toogle input");
+      const nav = document.querySelector("nav ul");
+
+      menuToggle.addEventListener("click", function () {
+        nav.classList.toggle("slide");
+      });
+    </script>
+  </body>
+</html>
