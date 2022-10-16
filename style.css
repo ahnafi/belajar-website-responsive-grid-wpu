@@ -174,7 +174,7 @@ body {
 
 
 /*responsive*/
-@media (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
   .menu {
     order: inherit;
     grid-template-columns: 1fr;
@@ -196,7 +196,7 @@ body {
     align-items: start;
   }
 }
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .menu {
     order: -1;
     justify-items: end;
@@ -229,7 +229,7 @@ body {
     transform: translatey(0);
   }
 }
-@media (max-width: 500px) {
+@media screen and (max-width: 500px) {
   body {
     margin: 30px;
   }
